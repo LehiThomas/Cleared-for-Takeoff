@@ -2,19 +2,42 @@
   "name": "trivia-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "cordova-android": "^7.1.4",
+    "cordova-plugin-admobpro": "^2.37.2",
+    "cordova-plugin-extension": "^1.5.4",
+    "cordova-plugin-ionic-webview": "^3.1.1",
+    "cordova-plugin-whitelist": "^1.3.3",
+    "cordova-res-generator": "^0.4.2",
+    "fs-extra": "^7.0.1",
+    "handlebars": "^4.0.12"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "npm run remove:www && react-scripts start",
+    "build": "npm run remove:www && react-scripts build",
+    "remove:www": "rm -rf www",
+    "build:cordova": "npm run remove:www && react-scripts build && mv build www",
+    "build-android": "npm run remove:www && react-scripts build && mv build www && cordova run android",
+    "build-android-release": "npm run remove:www && react-scripts build && mv build www && npm run resgen && cordova run android --release --buildConfig",
+    "resgen": "node ./node_modules/cordova-res-generator/bin/crgen -p android -i ./src/assets/images/icon.png -s ./src/assets/images/splash.png"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-admobpro": {
+        "PLAY_SERVICES_VERSION": "16.0.0"
+      },
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "android"
+    ]
   },
   "browserslist": [
     ">0.2%",
