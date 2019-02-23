@@ -23,7 +23,7 @@ INJECTED from D:\Projects\2019\trivia\trivia-app\platforms\android\app\src\main\
 INJECTED from D:\Projects\2019\trivia\trivia-app\platforms\android\app\src\main\AndroidManifest.xml:2:1-16:12
 INJECTED from D:\Projects\2019\trivia\trivia-app\platforms\android\app\src\main\AndroidManifest.xml:2:1-16:12
 	package
-		ADDED from D:\Projects\2019\trivia\trivia-app\platforms\android\app\src\main\AndroidManifest.xml:2:102-135
+		ADDED from D:\Projects\2019\trivia\trivia-app\platforms\android\app\src\main\AndroidManifest.xml:2:102-139
 		INJECTED from D:\Projects\2019\trivia\trivia-app\platforms\android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Projects\2019\trivia\trivia-app\platforms\android\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -33,7 +33,7 @@ INJECTED from D:\Projects\2019\trivia\trivia-app\platforms\android\app\src\main\
 	android:hardwareAccelerated
 		ADDED from D:\Projects\2019\trivia\trivia-app\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
 	xmlns:android
-		ADDED from D:\Projects\2019\trivia\trivia-app\platforms\android\app\src\main\AndroidManifest.xml:2:136-194
+		ADDED from D:\Projects\2019\trivia\trivia-app\platforms\android\app\src\main\AndroidManifest.xml:2:140-198
 	android:versionCode
 		ADDED from D:\Projects\2019\trivia\trivia-app\platforms\android\app\src\main\AndroidManifest.xml:2:46-73
 		INJECTED from D:\Projects\2019\trivia\trivia-app\platforms\android\app\src\main\AndroidManifest.xml
@@ -94,7 +94,7 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\lehit\.gradle\caches
 		ADDED from D:\Projects\2019\trivia\trivia-app\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
 	android:icon
 		ADDED from D:\Projects\2019\trivia\trivia-app\platforms\android\app\src\main\AndroidManifest.xml:5:53-80
-activity#io.cordova.hellocordova.MainActivity
+activity#com.toothpickfactory.trivia.MainActivity
 ADDED from D:\Projects\2019\trivia\trivia-app\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
 	android:label
 		ADDED from D:\Projects\2019\trivia\trivia-app\platforms\android\app\src\main\AndroidManifest.xml:6:97-134
