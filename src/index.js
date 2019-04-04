@@ -1,16 +1,28 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { HashRouter } from "react-router-dom";
+// import { adService } from "./services/AdService";
 import "./index.css";
 import App from "./App";
-import * as serviceWorker from "./serviceWorker";
 
 const startApp = () => {
-  ReactDOM.render(<App />, document.getElementById("root"));
-  serviceWorker.unregister();
+  ReactDOM.render(
+    <HashRouter>
+      <App />
+    </HashRouter>,
+    document.getElementById("root")
+  );
 };
 
 if (window.cordova) {
-  document.addEventListener("deviceready", startApp, false);
+  document.addEventListener(
+    "deviceready",
+    () => {
+      // adService.setAdMob(window.AdMob);
+      startApp();
+    },
+    false
+  );
 } else {
   startApp();
 }
