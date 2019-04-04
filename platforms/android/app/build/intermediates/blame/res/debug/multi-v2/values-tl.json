@@ -1,6 +1,62 @@
 {
     "logs": [
         {
+            "outputFile": "D:\\Projects\\2019\\React-Cordova-Template\\react-cordova-template\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tl\\values-tl.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lehit\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\7263ce33590dcdf3059c779649ad7b7b\\res\\values-tl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "204",
+                        "endOffsets": "451"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "204",
+                        "endOffsets": "305"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lehit\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\6e02ce523aeb9e785cecace08683445d\\res\\values-tl\\values-tl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "939",
+                        "endColumns": "100",
+                        "endOffsets": "1035"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lehit\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-16.0.0.aar\\875e387273495214e7413c7b5f3cc51b\\res\\values-tl\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "197,272,394,461,528,615,726",
+                        "endColumns": "74,121,66,66,86,110,71",
+                        "endOffsets": "271,393,460,527,614,725,797"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "310,389,515,586,657,748,863",
+                        "endColumns": "78,125,70,70,90,114,75",
+                        "endOffsets": "384,510,581,652,743,858,934"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "D:\\Projects\\2019\\trivia\\trivia-app\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tl\\values-tl.xml",
             "map": [
                 {

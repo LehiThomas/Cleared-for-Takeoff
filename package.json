@@ -1,5 +1,5 @@
 {
-  "name": "trivia-app",
+  "name": "HelloCordova",
   "version": "0.1.0",
   "private": true,
   "homepage": "./",
@@ -25,7 +25,7 @@
     "build:cordova": "npm run remove:www && react-scripts build && mv build www",
     "build-android": "npm run remove:www && react-scripts build && mv build www && cordova run android",
     "build-android-release": "npm run remove:www && react-scripts build && mv build www && npm run resgen && cordova run android --release --buildConfig",
-    "resgen": "node ./node_modules/cordova-res-generator/bin/crgen -p android -i ./src/assets/images/icon.png -s ./src/assets/images/splash.png"
+    "resgen": "node ./node_modules/cordova-res-generator/bin/crgen -p android -i ./src/assets/icon.png -s ./src/assets/splash.png"
   },
   "cordova": {
     "plugins": {

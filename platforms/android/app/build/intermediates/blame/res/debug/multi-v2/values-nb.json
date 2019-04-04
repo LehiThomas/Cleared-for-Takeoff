@@ -1,6 +1,62 @@
 {
     "logs": [
         {
+            "outputFile": "D:\\Projects\\2019\\React-Cordova-Template\\react-cordova-template\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nb\\values-nb.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lehit\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-16.0.0.aar\\875e387273495214e7413c7b5f3cc51b\\res\\values-nb\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "197,265,372,435,498,581,688",
+                        "endColumns": "67,106,62,62,82,106,68",
+                        "endOffsets": "264,371,434,497,580,687,756"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "294,366,477,544,611,698,809",
+                        "endColumns": "71,110,66,66,86,110,72",
+                        "endOffsets": "361,472,539,606,693,804,877"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lehit\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\6e02ce523aeb9e785cecace08683445d\\res\\values-nb\\values-nb.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "882",
+                        "endColumns": "100",
+                        "endOffsets": "978"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lehit\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\7263ce33590dcdf3059c779649ad7b7b\\res\\values-nb\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "188",
+                        "endOffsets": "435"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "188",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "D:\\Projects\\2019\\trivia\\trivia-app\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nb\\values-nb.xml",
             "map": [
                 {
