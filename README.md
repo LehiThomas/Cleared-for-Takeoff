@@ -1,3 +1,7 @@
+# Cleared-for-Takeoff
+
+An app that has everything you need to preflight and prepare for takeoff
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
