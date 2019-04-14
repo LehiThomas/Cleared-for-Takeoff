@@ -7,21 +7,21 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+    "cordova-plugin-admobpro": {
+      "PLAY_SERVICES_VERSION": "16.0.0",
+      "PACKAGE_NAME": "cleared.takeoff"
     },
     "cordova-plugin-ionic-webview": {
       "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+",
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+      "PACKAGE_NAME": "cleared.takeoff"
     },
-    "cordova-plugin-admobpro": {
-      "PLAY_SERVICES_VERSION": "16.0.0",
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "cleared.takeoff"
     }
   },
   "dependent_plugins": {
     "cordova-plugin-extension": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+      "PACKAGE_NAME": "cleared.takeoff"
     }
   }
 }
