@@ -1,0 +1,11 @@
+.airport-info {
+  width: 100%;
+}
+
+.airport-info > h2 {
+  margin-bottom: 0;
+}
+
+.airport-info > p {
+  margin-top: 0;
+}

@@ -1,0 +1,34 @@
+.weather-reports {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  width: 100%;
+  text-align: start;
+}
+
+.weather-reports h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.weather-reports h3 {
+  margin-bottom: 0;
+}
+
+.weather-reports p {
+  margin-top: 0;
+}
+
+.raw-text {
+  font-size: 14px;
+}
+
+.weather-reports tr {
+  height: 40px;
+}
+
+.weather-reports tr p {
+  margin: 0px;
+}
